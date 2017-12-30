@@ -1,4 +1,4 @@
-baseURL = "http://hugo-restructured-demo.netlify.com/"
+baseURL = "https://hugo-restructured-demo.netlify.com/"
 languageCode = "en-us"
 title = "Example.org"
 
