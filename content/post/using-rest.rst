@@ -35,6 +35,8 @@ covered in that demonstration page.
 reStructuredText Background
 ***************************
 
+.. _images:
+
 .. figure:: /img/rst-rotated.png
    :align: left
 
@@ -53,6 +55,8 @@ that was designed from the start to handle far more than a simple blog page.
 .. class:: sidebar narrow
 
 .. [*] This is a symbolic note, implemented as a sidenote.
+
+.. _citations:
 
 For example, BlackFriday and other markdown processors have added
 a form of footnotes to the original syntax.
@@ -247,6 +251,8 @@ images may spill out beyond the figure to either obscure the other
 content or run off the far edge of the page.
 
 
+.. _sidebars:
+
 Sidebars
 ========
 
@@ -285,6 +291,8 @@ to instead become floating elements beside the main body of content.
 
    This is a narrow sidebar.
    Potentially useful if the content is skinny.
+
+   .. _math:
 
    ===== ====
    Num   Word
@@ -420,6 +428,8 @@ with the longer class names that by default show in the comments.
 
 Something like the following Unix script can be useful to get suitable CSS:
 
+.. _code:
+
 .. code:: Bash
 
    #!/bin/bash
@@ -549,6 +559,8 @@ in a
 and will use this responsive form in those cases.
 
 
+.. _tables:
+
 Responsive Tables
 -----------------
 
@@ -598,6 +610,8 @@ that perhaps may help.
 .. the dots below create a horizontal line to separate the notes
 
 ....
+
+.. _footnotes:
 
 .. [#] This is a numeric note,
    implemented as a traditional footnote
