@@ -209,7 +209,8 @@ should be well handled.
    to compare with the finished results.
    A copy of the raw markup that was used for this page is available
    within the
-   `source repository <https://github.com/fisodd/hugo-restructured/>`__.
+   `source repository
+   <https://raw.githubusercontent.com/fisodd/hugo-restructured/master/exampleSite/content/post/using-rest.rst>`__.
 
 There are a few areas where this shift of focus and emphasis
 can be greatly assisted if the authors respect a few details
@@ -239,7 +240,7 @@ Specifically, for the figure directives
 it may help to specify a ``:figwidth:`` option as a percentage, e.g. 30%,
 as this allows the figure to scale the image's display size
 to match the relative size of the column in the user's browser display.
-Note: Specifying a fixed pixel width for figures
+Note: Specifying a fixed number of pixels as the width for figures
 can lead to problems as browsers adapt to different window sizes.
 
 In addition, providing an additional ``:width:`` option,
@@ -457,7 +458,7 @@ Hugo Restructured's Classes
 ===========================
 
 Along the way there have been a few potentially useful classes
-added to Hero Restructured's CSS.
+added to :title:`Hugo Restructured`'s CSS.
 
 Classes for Sidebars
 --------------------
