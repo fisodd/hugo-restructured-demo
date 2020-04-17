@@ -9,12 +9,13 @@ theme = "hugo-restructured"
 [params]
    #author = "William Shakespeare"
 
-   # Red gradients for pages
-   hero_color = "white"
-   hero_shade = "background: #870000; background: linear-gradient(to right, #190a05, #870000);" # https://uigradients.com/#TheStrain
+   # Adapt the two lines below to use local images
+   hero_image = "/img/typography-725149_1920.jpg"
+   hero_color = "gray90"
 
-   edge_shade = "background: #fdfcfb; background: linear-gradient(to bottom, #fdfcfb, #e2d1c3);" # https://webgradients.com -- 029 Everlasting Sky
+   # Alternative: Red gradients for pages
+   #hero_color = "white"
+   #hero_shade = "background: #870000; background: linear-gradient(to right, #190a05, #870000);" # https://uigradients.com/#TheStrain
 
-   # Uncomment to use images for 'Hero' and/or 'Edge'
-   #hero_image = "/post/using-rest/rst.png"
-   #edge_image = "/post/using-rest/rst-rotated.png"
+   #edge_shade = "background: #fdfcfb; background: linear-gradient(to bottom, #fdfcfb, #e2d1c3);" # https://webgradients.com -- 029 Everlasting Sky
+

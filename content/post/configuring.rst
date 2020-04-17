@@ -7,26 +7,32 @@ categories = ["Demo"]
 tags = ["config", "theme", "Hugo"]
 weight = 3
 
+# Really colorful gradient
+# https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients
 #hero_shade = """background: 
 #   linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%), 
 #   linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%), 
 #   linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%)"""
 
-hero_shade = """background:
-   linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
-   linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
-   linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
-   linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
-   linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
-   linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-   background-color: #131313;
-   background-size: 20px 20px"""
+# carbon-fiber effect from http://lea.verou.me/css3patterns/#carbon
+#hero_shade = """background:
+#   linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+#   linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+#   linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+#   linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+#   linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+#   linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+#   background-color: #131313;
+#   background-size: 20px 20px"""
   
-#hero_image = "/post/using-rest/rst.png"
+#hero_image = "/img/typography-725149_1920.jpg"
+#hero_color = "gray90"
+hero_image = "/img/typeface-5005091_1920.jpg"
 hero_color = "darkred"
 
-edge_shade = "background: linear-gradient(to bottom, white, gray)"
-#edge_image = "/post/using-rest/rst-rotated.png"
+edge_shade = "gray90"
+#edge_shade = "background: linear-gradient(to bottom, white, gray)"
+#edge_image = "/img/rst-rotated.png"
 
 +++
 

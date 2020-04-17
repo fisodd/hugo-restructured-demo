@@ -19,7 +19,7 @@ Using reStructuredText in Hugo
 ##############################
 
 Hugo does support
-`reStructuredText <http://docutils.sourceforge.net/rst.html>`__
+`reStructuredText <https://docutils.sourceforge.io/rst.html>`__
 as one of the
 `additional formats <https://gohugo.io/content-management/formats/#additional-formats-through-external-helpers>`__
 in Hugo.
@@ -40,9 +40,7 @@ reStructuredText Background
 .. figure:: /img/rst-rotated.png
    :align: left
 
-By default, Hugo uses
-`BlackFriday syntax <http://gohugo.io/content-management/formats/>`__
-as the input markup,
+By default, Hugo uses markdown syntax as the input markup,
 and this offers several extensions to the deliberately simplistic
 `markdown syntax <https://daringfireball.net/projects/markdown/>`__.
 
@@ -80,19 +78,19 @@ inline with the content.
 
    .. class:: bulletless
 
-   * `Admonitions <http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions>`__
-   * `Image <http://docutils.sourceforge.net/docs/ref/rst/directives.html#image>`__
-   * `Figure <http://docutils.sourceforge.net/docs/ref/rst/directives.html#figure>`__
-   * `Topic <http://docutils.sourceforge.net/docs/ref/rst/directives.html#topic>`__
-   * `Sidebar <http://docutils.sourceforge.net/docs/ref/rst/directives.html#sidebar>`__
-   * `Code <http://docutils.sourceforge.net/docs/ref/rst/directives.html#code>`__
-   * `Math <http://docutils.sourceforge.net/docs/ref/rst/directives.html#math>`__
-   * `Epigraph <http://docutils.sourceforge.net/docs/ref/rst/directives.html#epigraph>`__
-   * `Highlights <http://docutils.sourceforge.net/docs/ref/rst/directives.html#highlights>`__
-   * `Pull-Quote <http://docutils.sourceforge.net/docs/ref/rst/directives.html#pull-quote>`__
-   * `Table <http://docutils.sourceforge.net/docs/ref/rst/directives.html#table>`__
-   * `CSV Table <http://docutils.sourceforge.net/docs/ref/rst/directives.html#id4>`__
-   * `List Table <http://docutils.sourceforge.net/docs/ref/rst/directives.html#list-table>`__
+   * `Admonitions <https://docutils.sourceforge.io/docs/ref/rst/directives.html#admonitions>`__
+   * `Image <https://docutils.sourceforge.io/docs/ref/rst/directives.html#image>`__
+   * `Figure <https://docutils.sourceforge.io/docs/ref/rst/directives.html#figure>`__
+   * `Topic <https://docutils.sourceforge.io/docs/ref/rst/directives.html#topic>`__
+   * `Sidebar <https://docutils.sourceforge.io/docs/ref/rst/directives.html#sidebar>`__
+   * `Code <https://docutils.sourceforge.io/docs/ref/rst/directives.html#code>`__
+   * `Math <https://docutils.sourceforge.io/docs/ref/rst/directives.html#math>`__
+   * `Epigraph <https://docutils.sourceforge.io/docs/ref/rst/directives.html#epigraph>`__
+   * `Highlights <https://docutils.sourceforge.io/docs/ref/rst/directives.html#highlights>`__
+   * `Pull-Quote <https://docutils.sourceforge.io/docs/ref/rst/directives.html#pull-quote>`__
+   * `Table <https://docutils.sourceforge.io/docs/ref/rst/directives.html#table>`__
+   * `CSV Table <https://docutils.sourceforge.io/docs/ref/rst/directives.html#id4>`__
+   * `List Table <https://docutils.sourceforge.io/docs/ref/rst/directives.html#list-table>`__
 
 
 Perhaps much more relevant to a Hugo audience,
@@ -123,15 +121,15 @@ Learning reStructuredText
 
    .. class:: bulletless
 
-   * `Quick Start <http://docutils.sourceforge.net/docs/user/rst/quickstart.html>`__
-   * `Cheatsheet <http://docutils.sourceforge.net/docs/user/rst/cheatsheet.html>`__
-   * `Examples <http://docutils.sourceforge.net/docs/user/rst/quickref.html>`__
+   * `Quick Start <https://docutils.sourceforge.io/docs/user/rst/quickstart.html>`__
+   * `Cheatsheet <https://docutils.sourceforge.io/docs/user/rst/cheatsheet.html>`__
+   * `Examples <https://docutils.sourceforge.io/docs/user/rst/quickref.html>`__
 
    .. class:: bulletless
 
-   * `Specification <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>`__
-   * `Directives <http://docutils.sourceforge.net/docs/ref/rst/directives.html>`__
-   * `Text Roles <http://docutils.sourceforge.net/docs/ref/rst/roles.html>`__
+   * `Specification <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html>`__
+   * `Directives <https://docutils.sourceforge.io/docs/ref/rst/directives.html>`__
+   * `Text Roles <https://docutils.sourceforge.io/docs/ref/rst/roles.html>`__
 
 The basics of reStructuredText is not very different from
 any other plaintext markup, so it is easy to get started.
@@ -141,10 +139,10 @@ use double asterisks such as ``**bold**`` to be **bold**.
 
 Much of the basics are demonstrated
 in the
-`Quick Start Guide <http://docutils.sourceforge.net/docs/user/rst/quickstart.html>`__
+`Quick Start Guide <https://docutils.sourceforge.io/docs/user/rst/quickstart.html>`__
 and are covered
 in the
-`Quick Syntax Overview <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#quick-syntax-overview>`__.
+`Quick Syntax Overview <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#quick-syntax-overview>`__.
 
 .. sidebar:: Anonymous Hyperlink References
    :class: titleless
@@ -171,7 +169,7 @@ the main text just has a reference to a link,
 and the ugly details of the URL itself is defined elsewhere in the document.
 
 The full power of reStructuredText comes in its extensible
-`Directives <http://docutils.sourceforge.net/docs/ref/rst/directives.html>`__
+`Directives <https://docutils.sourceforge.io/docs/ref/rst/directives.html>`__
 such as Figures and Tables.
 By use of a specific syntax for these directives,
 it is easy to specify different options for each use,
@@ -199,7 +197,7 @@ often encompasses a much wider and richer variety of browser environments.
 The CSS provided with :title:`Hugo Restructured`
 is based on the HTML generated by Docutils.
 Any content that follows
-`reStructuredText definitions <http://docutils.sourceforge.net/docs/user/rst/quickstart.html>`__
+`reStructuredText definitions <https://docutils.sourceforge.io/docs/user/rst/quickstart.html>`__
 should be well handled.
 
 .. note::
@@ -260,7 +258,7 @@ Sidebars
 .. sidebar:: Sidebars
 
    To quote the
-   `documentation <http://docutils.sourceforge.net/docs/ref/rst/directives.html#sidebar>`__:
+   `documentation <https://docutils.sourceforge.io/docs/ref/rst/directives.html#sidebar>`__:
 
    Sidebars are like miniature, parallel documents
    that occur inside other documents,
@@ -389,7 +387,7 @@ Code Displays
 
 As has been demonstrated elsewhere in this page,
 :title:`Hugo Restructured` includes support for
-`code <http://docutils.sourceforge.net/docs/ref/rst/directives.html#code>`__
+`code <https://docutils.sourceforge.io/docs/ref/rst/directives.html#code>`__
 blocks.
 
 .. sidebar:: Hugo's Chroma
@@ -554,9 +552,9 @@ implemented as:
          * Three
 
 This CSS does recognize attempts to place a
-`table of contents <http://docutils.sourceforge.net/docs/ref/rst/directives.html#table-of-contents>`__
+`table of contents <https://docutils.sourceforge.io/docs/ref/rst/directives.html#table-of-contents>`__
 in a
-`sidebar <http://docutils.sourceforge.net/docs/ref/rst/directives.html#sidebar>`__
+`sidebar <https://docutils.sourceforge.io/docs/ref/rst/directives.html#sidebar>`__
 and will use this responsive form in those cases.
 
 
@@ -620,7 +618,7 @@ that perhaps may help.
    The footnote label is a link to return back
    to the previous part of the page.
 
-.. [ReST] :title:`reStructuredText Documentation`, http://docutils.sourceforge.net/rst.html
+.. [ReST] :title:`reStructuredText Documentation`, https://docutils.sourceforge.io/rst.html
 
 .. |--| unicode:: U+2013   .. en dash
 
